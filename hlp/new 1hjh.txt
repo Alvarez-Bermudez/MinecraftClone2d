@@ -1,0 +1,310 @@
+Private Sub mr3_Timer()
+If Juego.Text1.Caption = "<<RightAr>>" Then
+For Index = 70 To 678
+If Hlp.Label1.Caption = "000" Then
+'-----------
+If Hlp.RD.Caption = "1" And Hlp.RU.Caption = "1" Then
+If Juego.block(Index) = Hlp.Image1.Picture Then
+Hlp.hlp4 = Juego.block(Index + 35).Picture
+Hlp.hlp5 = Juego.block(Index + 1).Picture
+Juego.block(Index + 35).Picture = Hlp.Image4a.Picture
+Juego.block(Index + 1).Picture = Hlp.Image2a.Picture
+Juego.block(Index) = Hlp.hlp2.Picture
+Juego.block(Index + 34) = Hlp.hlp1.Picture
+Hlp.hlp2 = Hlp.hlp5.Picture
+Hlp.hlp1 = Hlp.hlp4.Picture
+
+
+Juego.block(Index + 99).Tag = "0"
+Juego.block(Index + 65).Tag = "0"
+Juego.block(Index + 31).Tag = "0"
+Juego.block(Index - 3).Tag = "0"
+Juego.block(Index - 37).Tag = "0"
+Juego.block(Index - 71).Tag = "0"
+
+Juego.block(Index + 100).Tag = "0"
+Juego.block(Index + 66).Tag = "0"
+Juego.block(Index + 32).Tag = "0"
+Juego.block(Index - 2).Tag = "0"
+Juego.block(Index - 36).Tag = "0"
+Juego.block(Index - 70).Tag = "0"
+
+Juego.block(Index + 100).Tag = "1"
+Juego.block(Index + 66).Tag = "1"
+Juego.block(Index + 32).Tag = "1"
+Juego.block(Index - 2).Tag = "1"
+Juego.block(Index - 36).Tag = "1"
+Juego.block(Index - 70).Tag = "1"
+End If
+End If
+
+If Hlp.RD.Caption = "0" And Hlp.RU.Caption = "0" Then
+If Juego.block(Index) = Hlp.Image1.Picture Then
+End If
+End If
+
+If Hlp.RD.Caption = "1" And Hlp.RU.Caption = "0" Then
+If Juego.block(Index) = Hlp.Image1.Picture Then
+End If
+End If
+End If
+Next Index
+
+If Hlp.RD.Caption = "0" And Hlp.RU.Caption = "1" Then
+For Index = 600 To 670
+If Juego.block(Index) = Hlp.Image1.Picture Then
+Juego.block(Index) = Hlp.hlp2.Picture
+Juego.block(Index + 34) = Hlp.hlp1.Picture
+Hlp.hlp4 = Juego.block(Index + 69).Picture
+Hlp.hlp5 = Juego.block(Index + 35).Picture
+Juego.block(Index + 69) = Hlp.Image4a.Picture
+Juego.block(Index + 35) = Hlp.Image2a.Picture
+Hlp.hlp1 = Hlp.hlp4.Picture
+Hlp.hlp2 = Hlp.hlp5.Picture
+
+Juego.block(Index - 70).Tag = "0"
+Juego.block(Index - 69).Tag = "0"
+Juego.block(Index - 68).Tag = "0"
+Juego.block(Index - 67).Tag = "0"
+Juego.block(Index - 66).Tag = "0"
+Juego.block(Index - 36).Tag = "0"
+Juego.block(Index + 32).Tag = "0"
+Juego.block(Index + 66).Tag = "0"
+Juego.block(Index - 2).Tag = "0"
+Juego.block(Index - 31).Tag = "1"
+Juego.block(Index + 3).Tag = "1"
+Juego.block(Index + 37).Tag = "1"
+Juego.block(Index + 104).Tag = "1"
+Juego.block(Index + 101).Tag = "1"
+Juego.block(Index + 102).Tag = "1"
+Juego.block(Index + 103).Tag = "1"
+Juego.block(Index + 105).Tag = "1"
+End If
+Next Index
+
+For Index = 529 To 599
+If Juego.block(Index) = Hlp.Image1.Picture Then
+Juego.block(Index) = Hlp.hlp2.Picture
+Juego.block(Index + 34) = Hlp.hlp1.Picture
+Hlp.hlp4 = Juego.block(Index + 69).Picture
+Hlp.hlp5 = Juego.block(Index + 35).Picture
+Juego.block(Index + 69) = Hlp.Image4a.Picture
+Juego.block(Index + 35) = Hlp.Image2a.Picture
+Hlp.hlp1 = Hlp.hlp4.Picture
+Hlp.hlp2 = Hlp.hlp5.Picture
+
+Juego.block(Index - 70).Tag = "0"
+Juego.block(Index - 69).Tag = "0"
+Juego.block(Index - 68).Tag = "0"
+Juego.block(Index - 67).Tag = "0"
+Juego.block(Index - 66).Tag = "0"
+Juego.block(Index - 36).Tag = "0"
+Juego.block(Index + 32).Tag = "0"
+Juego.block(Index + 66).Tag = "0"
+Juego.block(Index - 2).Tag = "0"
+Juego.block(Index - 31).Tag = "1"
+Juego.block(Index + 3).Tag = "1"
+Juego.block(Index + 37).Tag = "1"
+Juego.block(Index + 104).Tag = "1"
+Juego.block(Index + 101).Tag = "1"
+Juego.block(Index + 102).Tag = "1"
+Juego.block(Index + 103).Tag = "1"
+Juego.block(Index + 105).Tag = "1"
+End If
+Next Index
+
+For Index = 458 To 528
+If Juego.block(Index) = Hlp.Image1.Picture Then
+Juego.block(Index) = Hlp.hlp2.Picture
+Juego.block(Index + 34) = Hlp.hlp1.Picture
+Hlp.hlp4 = Juego.block(Index + 69).Picture
+Hlp.hlp5 = Juego.block(Index + 35).Picture
+Juego.block(Index + 69) = Hlp.Image4a.Picture
+Juego.block(Index + 35) = Hlp.Image2a.Picture
+Hlp.hlp1 = Hlp.hlp4.Picture
+Hlp.hlp2 = Hlp.hlp5.Picture
+
+Juego.block(Index - 70).Tag = "0"
+Juego.block(Index - 69).Tag = "0"
+Juego.block(Index - 68).Tag = "0"
+Juego.block(Index - 67).Tag = "0"
+Juego.block(Index - 66).Tag = "0"
+Juego.block(Index - 36).Tag = "0"
+Juego.block(Index + 32).Tag = "0"
+Juego.block(Index + 66).Tag = "0"
+Juego.block(Index - 2).Tag = "0"
+Juego.block(Index - 31).Tag = "1"
+Juego.block(Index + 3).Tag = "1"
+Juego.block(Index + 37).Tag = "1"
+Juego.block(Index + 104).Tag = "1"
+Juego.block(Index + 101).Tag = "1"
+Juego.block(Index + 102).Tag = "1"
+Juego.block(Index + 103).Tag = "1"
+Juego.block(Index + 105).Tag = "1"
+End If
+Next Index
+
+For Index = 387 To 457
+If Juego.block(Index) = Hlp.Image1.Picture Then
+Juego.block(Index) = Hlp.hlp2.Picture
+Juego.block(Index + 34) = Hlp.hlp1.Picture
+Hlp.hlp4 = Juego.block(Index + 69).Picture
+Hlp.hlp5 = Juego.block(Index + 35).Picture
+Juego.block(Index + 69) = Hlp.Image4a.Picture
+Juego.block(Index + 35) = Hlp.Image2a.Picture
+Hlp.hlp1 = Hlp.hlp4.Picture
+Hlp.hlp2 = Hlp.hlp5.Picture
+
+Juego.block(Index - 70).Tag = "0"
+Juego.block(Index - 69).Tag = "0"
+Juego.block(Index - 68).Tag = "0"
+Juego.block(Index - 67).Tag = "0"
+Juego.block(Index - 66).Tag = "0"
+Juego.block(Index - 36).Tag = "0"
+Juego.block(Index + 32).Tag = "0"
+Juego.block(Index + 66).Tag = "0"
+Juego.block(Index - 2).Tag = "0"
+Juego.block(Index - 31).Tag = "1"
+Juego.block(Index + 3).Tag = "1"
+Juego.block(Index + 37).Tag = "1"
+Juego.block(Index + 104).Tag = "1"
+Juego.block(Index + 101).Tag = "1"
+Juego.block(Index + 102).Tag = "1"
+Juego.block(Index + 103).Tag = "1"
+Juego.block(Index + 105).Tag = "1"
+End If
+Next Index
+For Index = 316 To 386
+If Juego.block(Index) = Hlp.Image1.Picture Then
+Juego.block(Index) = Hlp.hlp2.Picture
+Juego.block(Index + 34) = Hlp.hlp1.Picture
+Hlp.hlp4 = Juego.block(Index + 69).Picture
+Hlp.hlp5 = Juego.block(Index + 35).Picture
+Juego.block(Index + 69) = Hlp.Image4a.Picture
+Juego.block(Index + 35) = Hlp.Image2a.Picture
+Hlp.hlp1 = Hlp.hlp4.Picture
+Hlp.hlp2 = Hlp.hlp5.Picture
+
+Juego.block(Index - 70).Tag = "0"
+Juego.block(Index - 69).Tag = "0"
+Juego.block(Index - 68).Tag = "0"
+Juego.block(Index - 67).Tag = "0"
+Juego.block(Index - 66).Tag = "0"
+Juego.block(Index - 36).Tag = "0"
+Juego.block(Index + 32).Tag = "0"
+Juego.block(Index + 66).Tag = "0"
+Juego.block(Index - 2).Tag = "0"
+Juego.block(Index - 31).Tag = "1"
+Juego.block(Index + 3).Tag = "1"
+Juego.block(Index + 37).Tag = "1"
+Juego.block(Index + 104).Tag = "1"
+Juego.block(Index + 101).Tag = "1"
+Juego.block(Index + 102).Tag = "1"
+Juego.block(Index + 103).Tag = "1"
+Juego.block(Index + 105).Tag = "1"
+End If
+Next Index
+
+
+For Index = 245 To 315
+If Juego.block(Index) = Hlp.Image1.Picture Then
+Juego.block(Index) = Hlp.hlp2.Picture
+Juego.block(Index + 34) = Hlp.hlp1.Picture
+Hlp.hlp4 = Juego.block(Index + 69).Picture
+Hlp.hlp5 = Juego.block(Index + 35).Picture
+Juego.block(Index + 69) = Hlp.Image4a.Picture
+Juego.block(Index + 35) = Hlp.Image2a.Picture
+Hlp.hlp1 = Hlp.hlp4.Picture
+Hlp.hlp2 = Hlp.hlp5.Picture
+
+Juego.block(Index - 70).Tag = "0"
+Juego.block(Index - 69).Tag = "0"
+Juego.block(Index - 68).Tag = "0"
+Juego.block(Index - 67).Tag = "0"
+Juego.block(Index - 66).Tag = "0"
+Juego.block(Index - 36).Tag = "0"
+Juego.block(Index + 32).Tag = "0"
+Juego.block(Index + 66).Tag = "0"
+Juego.block(Index - 2).Tag = "0"
+Juego.block(Index - 31).Tag = "1"
+Juego.block(Index + 3).Tag = "1"
+Juego.block(Index + 37).Tag = "1"
+Juego.block(Index + 104).Tag = "1"
+Juego.block(Index + 101).Tag = "1"
+Juego.block(Index + 102).Tag = "1"
+Juego.block(Index + 103).Tag = "1"
+Juego.block(Index + 105).Tag = "1"
+End If
+Next Index
+
+
+For Index = 174 To 244
+If Juego.block(Index) = Hlp.Image1.Picture Then
+Juego.block(Index) = Hlp.hlp2.Picture
+Juego.block(Index + 34) = Hlp.hlp1.Picture
+Hlp.hlp4 = Juego.block(Index + 69).Picture
+Hlp.hlp5 = Juego.block(Index + 35).Picture
+Juego.block(Index + 69) = Hlp.Image4a.Picture
+Juego.block(Index + 35) = Hlp.Image2a.Picture
+Hlp.hlp1 = Hlp.hlp4.Picture
+Hlp.hlp2 = Hlp.hlp5.Picture
+
+Juego.block(Index - 70).Tag = "0"
+Juego.block(Index - 69).Tag = "0"
+Juego.block(Index - 68).Tag = "0"
+Juego.block(Index - 67).Tag = "0"
+Juego.block(Index - 66).Tag = "0"
+Juego.block(Index - 36).Tag = "0"
+Juego.block(Index + 32).Tag = "0"
+Juego.block(Index + 66).Tag = "0"
+Juego.block(Index - 2).Tag = "0"
+Juego.block(Index - 31).Tag = "1"
+Juego.block(Index + 3).Tag = "1"
+Juego.block(Index + 37).Tag = "1"
+Juego.block(Index + 104).Tag = "1"
+Juego.block(Index + 101).Tag = "1"
+Juego.block(Index + 102).Tag = "1"
+Juego.block(Index + 103).Tag = "1"
+Juego.block(Index + 105).Tag = "1"
+End If
+Next Index
+
+
+For Index = 70 To 103
+If Juego.block(Index) = Hlp.Image1.Picture Then
+Juego.block(Index) = Hlp.hlp2.Picture
+Juego.block(Index + 34) = Hlp.hlp1.Picture
+Hlp.hlp4 = Juego.block(Index + 69).Picture
+Hlp.hlp5 = Juego.block(Index + 35).Picture
+Juego.block(Index + 69) = Hlp.Image4a.Picture
+Juego.block(Index + 35) = Hlp.Image2a.Picture
+Hlp.hlp1 = Hlp.hlp4.Picture
+Hlp.hlp2 = Hlp.hlp5.Picture
+
+Juego.block(Index - 70).Tag = "0"
+Juego.block(Index - 69).Tag = "0"
+Juego.block(Index - 68).Tag = "0"
+Juego.block(Index - 67).Tag = "0"
+Juego.block(Index - 66).Tag = "0"
+Juego.block(Index - 36).Tag = "0"
+Juego.block(Index + 32).Tag = "0"
+Juego.block(Index + 66).Tag = "0"
+Juego.block(Index - 2).Tag = "0"
+Juego.block(Index - 31).Tag = "1"
+Juego.block(Index + 3).Tag = "1"
+Juego.block(Index + 37).Tag = "1"
+Juego.block(Index + 104).Tag = "1"
+Juego.block(Index + 101).Tag = "1"
+Juego.block(Index + 102).Tag = "1"
+Juego.block(Index + 103).Tag = "1"
+Juego.block(Index + 105).Tag = "1"
+End If
+Next Index
+End If
+
+'///////////////////////////////////////////////////////////
+End If
+
+
+
+End Sub

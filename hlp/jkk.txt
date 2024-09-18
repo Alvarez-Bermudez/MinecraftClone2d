@@ -1,0 +1,228 @@
+Public Sub sub1CargarInventario()
+'''ll8
+VerificarCarga
+If Hlp.Vc(0).Caption = "yes" And Hlp.Vc(1).Caption = "yes" And Hlp.Vc(2).Caption = "yes" And Hlp.Vc(3).Caption = "yes" And Hlp.Vc(4).Caption = "yes" And Hlp.Vc(5).Caption = "yes" And Hlp.Vc(6).Caption = "yes" And Hlp.Vc(7).Caption = "yes" Then
+If Hlp.Exc = Hlp.Exc2 And Hlp.Exc2 = Juego.imgh(2).Picture Then
+za# = Hlp.Exc.Tag
+zb# = Juego.imgh(7).Tag
+Juego.imgh(7).Tag = za + zb
+Juego.imgh(7) = Hlp.Exc.Picture
+EquiJ
+Cambio
+MostrarCantidad
+'Hlp.Exc.Tag = "1"
+End If
+End If
+'''ll7
+VerificarCarga
+If Hlp.Vc(0).Caption = "yes" And Hlp.Vc(1).Caption = "yes" And Hlp.Vc(2).Caption = "yes" And Hlp.Vc(3).Caption = "yes" And Hlp.Vc(4).Caption = "yes" And Hlp.Vc(5).Caption = "yes" And Hlp.Vc(6).Caption = "yes" And Hlp.Vc(7).Caption = "no" Then
+If Hlp.Exc = Hlp.Exc2 And Hlp.Exc2 = Juego.imgh(6).Picture Then
+za# = Hlp.Exc.Tag
+zb# = Juego.imgh(6).Tag
+Juego.imgh(6).Tag = za + zb
+Juego.imgh(6) = Hlp.Exc.Picture
+EquiJ
+Cambio
+MostrarCantidad
+'Hlp.Exc.Tag = "1"
+End If
+End If
+'''ll6
+VerificarCarga
+If Hlp.Vc(0).Caption = "yes" And Hlp.Vc(1).Caption = "yes" And Hlp.Vc(2).Caption = "yes" And Hlp.Vc(3).Caption = "yes" And Hlp.Vc(4).Caption = "yes" And Hlp.Vc(5).Caption = "yes" And Hlp.Vc(6).Caption = "no" And Hlp.Vc(7).Caption = "no" Then
+If Hlp.Exc = Hlp.Exc2 And Hlp.Exc2 = Juego.imgh(5).Picture Then
+za# = Hlp.Exc.Tag
+zb# = Juego.imgh(5).Tag
+Juego.imgh(5).Tag = za + zb
+Juego.imgh(5) = Hlp.Exc.Picture
+EquiJ
+Cambio
+MostrarCantidad
+'Hlp.Exc.Tag = "1"
+End If
+End If
+'''ll5
+VerificarCarga
+If Hlp.Vc(0).Caption = "yes" And Hlp.Vc(1).Caption = "yes" And Hlp.Vc(2).Caption = "yes" And Hlp.Vc(3).Caption = "yes" And Hlp.Vc(4).Caption = "yes" And Hlp.Vc(5).Caption = "no" And Hlp.Vc(6).Caption = "no" And Hlp.Vc(7).Caption = "no" Then
+If Hlp.Exc = Hlp.Exc2 And Hlp.Exc2 = Juego.imgh(4).Picture Then
+za# = Hlp.Exc.Tag
+zb# = Juego.imgh(4).Tag
+Juego.imgh(4).Tag = za + zb
+Juego.imgh(4) = Hlp.Exc.Picture
+EquiJ
+Cambio
+MostrarCantidad
+'Hlp.Exc.Tag = "1"
+End If
+End If
+'''ll4
+VerificarCarga
+If Hlp.Vc(0).Caption = "yes" And Hlp.Vc(1).Caption = "yes" And Hlp.Vc(2).Caption = "yes" And Hlp.Vc(3).Caption = "yes" And Hlp.Vc(4).Caption = "no" And Hlp.Vc(5).Caption = "no" And Hlp.Vc(6).Caption = "no" And Hlp.Vc(7).Caption = "no" Then
+If Hlp.Exc = Hlp.Exc2 And Hlp.Exc2 = Juego.imgh(3).Picture Then
+za# = Hlp.Exc.Tag
+zb# = Juego.imgh(3).Tag
+Juego.imgh(3).Tag = za + zb
+Juego.imgh(3) = Hlp.Exc.Picture
+EquiJ
+Cambio
+MostrarCantidad
+'Hlp.Exc.Tag = "1"
+End If
+End If
+'''ll3
+VerificarCarga
+If Hlp.Vc(0).Caption = "yes" And Hlp.Vc(1).Caption = "yes" And Hlp.Vc(2).Caption = "yes" And Hlp.Vc(3).Caption = "no" And Hlp.Vc(4).Caption = "no" And Hlp.Vc(5).Caption = "no" And Hlp.Vc(6).Caption = "no" And Hlp.Vc(7).Caption = "no" Then
+If Hlp.Exc = Hlp.Exc2 And Hlp.Exc2 = Juego.imgh(2).Picture Then
+za# = Hlp.Exc.Tag
+zb# = Juego.imgh(2).Tag
+Juego.imgh(2).Tag = za + zb
+Juego.imgh(2) = Hlp.Exc.Picture
+EquiJ
+Cambio
+MostrarCantidad
+'Hlp.Exc.Tag = "1"
+End If
+End If
+'''ll2
+VerificarCarga
+If Hlp.Vc(0).Caption = "yes" And Hlp.Vc(1).Caption = "yes" And Hlp.Vc(2).Caption = "no" And Hlp.Vc(3).Caption = "no" And Hlp.Vc(4).Caption = "no" And Hlp.Vc(5).Caption = "no" And Hlp.Vc(6).Caption = "no" And Hlp.Vc(7).Caption = "no" Then
+If Hlp.Exc = Hlp.Exc2 And Hlp.Exc2 = Juego.imgh(1).Picture Then
+za# = Hlp.Exc.Tag
+zb# = Juego.imgh(1).Tag
+Juego.imgh(1).Tag = za + zb
+Juego.imgh(1) = Hlp.Exc.Picture
+EquiJ
+Cambio
+MostrarCantidad
+'Hlp.Exc.Tag = "1"
+End If
+End If
+'''ll1
+VerificarCarga
+If Hlp.Vc(0).Caption = "yes" And Hlp.Vc(1).Caption = "no" And Hlp.Vc(2).Caption = "no" And Hlp.Vc(3).Caption = "no" And Hlp.Vc(4).Caption = "no" And Hlp.Vc(5).Caption = "no" And Hlp.Vc(6).Caption = "no" And Hlp.Vc(7).Caption = "no" Then
+If Hlp.Exc = Hlp.Exc2 And Hlp.Exc2 = Juego.imgh(0).Picture Then
+za# = Hlp.Exc.Tag
+zb# = Juego.imgh(0).Tag
+Juego.imgh(0).Tag = za + zb
+Juego.imgh(0) = Hlp.Exc.Picture
+EquiJ
+MostrarCantidad
+'Hlp.Exc.Tag = "1"
+End If
+End If
+
+
+
+
+
+
+
+'''8
+VerificarCarga
+If Hlp.Vc(0).Caption = "yes" And Hlp.Vc(1).Caption = "yes" And Hlp.Vc(2).Caption = "yes" And Hlp.Vc(3).Caption = "yes" And Hlp.Vc(4).Caption = "yes" And Hlp.Vc(5).Caption = "yes" And Hlp.Vc(6).Caption = "yes" And Hlp.Vc(7).Caption = "no" Then
+If Hlp.Exc <> Hlp.Exc2 Then
+za# = Hlp.Exc.Tag
+zb# = Juego.imgh(7).Tag
+Juego.imgh(7).Tag = za + zb
+Juego.imgh(7) = Hlp.Exc.Picture
+EquiJ
+Cambio
+MostrarCantidad
+'Hlp.Exc.Tag = "1"
+End If
+End If
+'''7
+VerificarCarga
+If Hlp.Vc(0).Caption = "yes" And Hlp.Vc(1).Caption = "yes" And Hlp.Vc(2).Caption = "yes" And Hlp.Vc(3).Caption = "yes" And Hlp.Vc(4).Caption = "yes" And Hlp.Vc(5).Caption = "yes" And Hlp.Vc(6).Caption = "no" And Hlp.Vc(7).Caption = "no" Then
+If Hlp.Exc <> Hlp.Exc2 Then
+za# = Hlp.Exc.Tag
+zb# = Juego.imgh(6).Tag
+Juego.imgh(6).Tag = za + zb
+Juego.imgh(6) = Hlp.Exc.Picture
+EquiJ
+Cambio
+MostrarCantidad
+'Hlp.Exc.Tag = "1"
+End If
+End If
+'''6
+VerificarCarga
+If Hlp.Vc(0).Caption = "yes" And Hlp.Vc(1).Caption = "yes" And Hlp.Vc(2).Caption = "yes" And Hlp.Vc(3).Caption = "yes" And Hlp.Vc(4).Caption = "yes" And Hlp.Vc(5).Caption = "no" And Hlp.Vc(6).Caption = "no" And Hlp.Vc(7).Caption = "no" Then
+If Hlp.Exc <> Hlp.Exc2 Then
+za# = Hlp.Exc.Tag
+zb# = Juego.imgh(5).Tag
+Juego.imgh(5).Tag = za + zb
+Juego.imgh(5) = Hlp.Exc.Picture
+EquiJ
+Cambio
+MostrarCantidad
+'Hlp.Exc.Tag = "1"
+End If
+End If
+'''5
+VerificarCarga
+If Hlp.Vc(0).Caption = "yes" And Hlp.Vc(1).Caption = "yes" And Hlp.Vc(2).Caption = "yes" And Hlp.Vc(3).Caption = "yes" And Hlp.Vc(4).Caption = "no" And Hlp.Vc(5).Caption = "no" And Hlp.Vc(6).Caption = "no" And Hlp.Vc(7).Caption = "no" Then
+If Hlp.Exc <> Hlp.Exc2 Then
+za# = Hlp.Exc.Tag
+zb# = Juego.imgh(4).Tag
+Juego.imgh(4).Tag = za + zb
+Juego.imgh(4) = Hlp.Exc.Picture
+EquiJ
+Cambio
+MostrarCantidad
+'Hlp.Exc.Tag = "1"
+End If
+End If
+'''4
+VerificarCarga
+If Hlp.Vc(0).Caption = "yes" And Hlp.Vc(1).Caption = "yes" And Hlp.Vc(2).Caption = "yes" And Hlp.Vc(3).Caption = "no" And Hlp.Vc(4).Caption = "no" And Hlp.Vc(5).Caption = "no" And Hlp.Vc(6).Caption = "no" And Hlp.Vc(7).Caption = "no" Then
+If Hlp.Exc <> Hlp.Exc2 Then
+Juego.imgh(3) = Hlp.Exc.Picture
+za# = Hlp.Exc.Tag
+zb# = Juego.imgh(3).Tag
+Juego.imgh(3).Tag = za + zb
+Cambio
+EquiJ
+MostrarCantidad
+End If
+'''3
+VerificarCarga
+If Hlp.Vc(0).Caption = "yes" And Hlp.Vc(1).Caption = "yes" And Hlp.Vc(2).Caption = "no" And Hlp.Vc(3).Caption = "no" And Hlp.Vc(4).Caption = "no" And Hlp.Vc(5).Caption = "no" And Hlp.Vc(6).Caption = "no" And Hlp.Vc(7).Caption = "no" Then
+If Hlp.Exc <> Hlp.Exc2 Then
+za# = Hlp.Exc.Tag
+zb# = Juego.imgh(2).Tag
+Juego.imgh(2).Tag = za + zb
+Juego.imgh(2) = Hlp.Exc.Picture
+EquiJ
+Cambio
+MostrarCantidad
+'Hlp.Exc.Tag = "1"
+End If
+End If
+'''2
+VerificarCarga
+If Hlp.Vc(0).Caption = "yes" And Hlp.Vc(1).Caption = "no" And Hlp.Vc(2).Caption = "no" And Hlp.Vc(3).Caption = "no" And Hlp.Vc(4).Caption = "no" And Hlp.Vc(5).Caption = "no" And Hlp.Vc(6).Caption = "no" And Hlp.Vc(7).Caption = "no" Then
+If Hlp.Exc <> Hlp.Exc2 Then
+za# = Hlp.Exc.Tag
+zb# = Juego.imgh(1).Tag
+Juego.imgh(1).Tag = za + zb
+Juego.imgh(1) = Hlp.Exc.Picture
+EquiJ
+Cambio
+MostrarCantidad
+'Hlp.Exc.Tag = "1"
+End If
+End If
+'''1
+VerificarCarga
+If Hlp.Vc(0).Caption = "no" And Hlp.Vc(1).Caption = "no" And Hlp.Vc(2).Caption = "no" And Hlp.Vc(3).Caption = "no" And Hlp.Vc(4).Caption = "no" And Hlp.Vc(5).Caption = "no" And Hlp.Vc(6).Caption = "no" And Hlp.Vc(7).Caption = "no" Then
+Juego.imgh(0) = Hlp.Exc.Picture
+za# = Hlp.Exc.Tag
+zb# = Juego.imgh(0).Tag
+Juego.imgh(0).Tag = za + zb
+Cambio
+EquiJ
+MostrarCantidad
+End If
+
+End Sub

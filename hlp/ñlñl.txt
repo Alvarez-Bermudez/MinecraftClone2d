@@ -1,0 +1,31 @@
+If Hlp.LD.Caption = "1" And Hlp.LU.Caption = "1" Then
+If Juego.block(0) = Hlp.Image1.Picture Or Juego.block(Index) = Hlp.Image2.Picture Or Juego.block(Index) = Hlp.Image2a.Picture Then
+Hlp.hlp4 = Juego.block(Index + 33).Picture
+Hlp.hlp5 = Juego.block(Index - 1).Picture
+Juego.block(Index + 33).Picture = Hlp.Image3.Picture
+Juego.block(Index - 1).Picture = Hlp.Image1.Picture
+Juego.block(Index) = Hlp.hlp2.Picture
+Juego.block(Index + 34) = Hlp.hlp1.Picture
+Hlp.hlp2 = Hlp.hlp5.Picture
+Hlp.hlp1 = Hlp.hlp4.Picture
+
+Juego.block(Index + 103).Tag = 0
+Juego.block(Index + 70).Tag = 0
+Juego.block(Index + 36).Tag = 0
+Juego.block(Index + 2).Tag = 0
+Juego.block(Index - 32).Tag = 0
+Juego.block(Index - 66).Tag = 0
+
+Juego.block(Index + 104).Tag = 0
+Juego.block(Index + 37).Tag = 0
+Juego.block(Index + 3).Tag = 0
+Juego.block(Index - 31).Tag = 0
+Juego.block(Index - 65).Tag = 0
+
+Juego.block(Index + 105).Tag = 0
+Juego.block(Index + 38).Tag = 0
+Juego.block(Index + 4).Tag = 0
+Juego.block(Index - 30).Tag = 0
+Juego.block(Index - 64).Tag = 0
+End If
+End If
