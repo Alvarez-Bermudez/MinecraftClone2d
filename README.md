@@ -8,14 +8,14 @@ Este fue mi primer proyecto como desarrollador de software, un simple clon de Mi
 >Recomiendo usar Visual Basic 6.0.
 
 1. Una vez que corras el juego, tendrás la siguiente ventana:
-![screen](https://github.com/Alvarez-Bermudez/MinecraftClone2d/blob/main/screenshots/01-home.png)
+![screen](https://github.com/Alvarez-Bermudez/MinecraftClone2d/tree/main/screenshots/01-_home.png)
 Presionas **Start** y luego aparecerá una ventana para seleccionar el mundo.
 
 1. Seleccionas un mundo y luego presionas **Play**
 ![screen](https://github.com/Alvarez-Bermudez/MinecraftClone2d/blob/main/screenshots/02-selectWorld.png)
 
 1. A continuación ya podrías jugar este simple clon.
-![screen](https://github.com/Alvarez-Bermudez/MinecraftClone2d/blob/main/screenshots/03-playing.png)
+![screen](https://github.com/Alvarez-Bermudez/MinecraftClone2d/blob/main/screenshots/03-_playing.png)
 
 - Controles:
 
