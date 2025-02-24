@@ -1,6 +1,6 @@
 # Minecraft Clone 2D
 
-Este fue mi primer proyecto como desarrollador de software, un simple clon de Minecraft (pero en dos dimensiones). Lo programé usando Visual Basic 6.0 a mis 15 años de edad (año 2019). Si preguntas —Pero, ¿por qué con Visual Basic?—, la respuesta es que así consumía pocos recursos y ya me encontraba algo familiarizado con este lenguaje.
+Este fue mi primer proyecto como desarrollador de software, un simple clon de Minecraft (pero en dos dimensiones). Lo programé usando Visual Basic 6.0 a mis 15 años de edad (año 2019). Si preguntas —Pero, ¿por qué con Visual Basic?—, la respuesta es que así consumía pocos recursos y ya me encontraba algo familiarizado con este lenguaje hasta aquel entonces. Conservo este código como muestra de mi comienzo en este interesante mundo.  
 
 ## Indicaciones
 >[!NOTE]
@@ -45,6 +45,6 @@ A continuación se muestra un ejemplo de cómo crear un objeto Mesa de Creación
 >
 > Si revisas el código, verás mi beginner level tanto en programación como en idioma inglés, muestra de mi poca experiencia cuando empezaba en este maravilloso mundo del desarrollo de Software.
 
-...Llegado hasta este punto me dirás —¡Qué raro está este proyecto!—. Sí, yo también lo veo así ahora. En la actualidad, con el desarrollo y el nivel de la tecnología alcanzado, lo hallo super raro; solo que en aquel momento, no disponía de la información y los recursos necesarios para realizar un mejor trabajo. Pero bueno, conservo este código como muestra de mi comienzo en este interesante mundo. Así que, sin más, espero que te diviertas un poco usándolo😆! ¡Graciass!
+... Así que, sin más, espero que te diviertas un poco usándolo😆! ¡Graciass!
 
 
