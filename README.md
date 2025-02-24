@@ -29,15 +29,15 @@ Presionas **Start** y luego aparecerá una ventana para seleccionar el mundo.
 | Seleccionar alcance/bloque objetivo | Z |
 | Romper bloque | X |
 | Construir bloque | C |
-| Abrir/Cerrar Inventario/Mesa de Creación| I |
-| Mover item en Inventario/Mesa de Creación | T |
+| Abrir/Cerrar Mesa de Creación| I |
+| Mover item en Mesa de Creación | T |
 | Cancelar/Atrás | Esc |
 
 - Para construir/destruir primero debes seleccionar el bloque a tu alcance según tu posición. Puedes navegar hasta tu bloque destino por las teclas Left, Right, Up y Down Arrows. Puedes destruir un bloque con X. Cuando rompas un bloque, este se añadirá a tu inventario (parte superior de la ventana). Para seleccionar un bloque de tu inventario, navega a través de él con las teclas E y R. Para construir necesitas tener disponible y seleccionado un bloque en tu inventario, elijes el objetivo y presionas C. Con la tecla Esc puedes desmarcar el bloque objetivo.  
 ![screen](https://github.com/Alvarez-Bermudez/MinecraftClone2d/blob/main/screenshots/04-building.gif)  
-- El inventario se abre con la tecla I.  
+- La Mesa de creación se abre con la tecla I.  
 ![screen](https://github.com/Alvarez-Bermudez/MinecraftClone2d/blob/main/screenshots/05-buildingBox.png)  
-Puedes seleccionar una posición con un solo Clic (Izquierdo) ya sea tanto en el Inventario como en la Mesa de Creación. El objeto en cuestión se puede intercambiar o mover de posición con la tecla T.  
+Puedes seleccionar una posición con un solo Clic (Izquierdo). El objeto en cuestión se puede intercambiar o mover de posición con la tecla T, no sin antes haber seleccionado otra posición.  
 A continuación se muestra un ejemplo de cómo crear un objeto Mesa de Creación. Primero crear tablones a partir de un bloque de madera y posteriormente, la mesa de creación.  
 ![screen](https://github.com/Alvarez-Bermudez/MinecraftClone2d/blob/main/screenshots/06-mesa.gif)  
 
