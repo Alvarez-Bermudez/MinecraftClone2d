@@ -7,7 +7,7 @@ Este fue mi primer proyecto como desarrollador de software, un simple clon de Mi
 >
 >Puedes usar Visual Basic 5.0 o Visual Basic 6.0.
 - Una vez que corras el juego, tendrás la siguiente ventana:
-![screen](https://github.com/Alvarez-Bermudez/MinecraftClone2d/.readme/01-Home.png)
+![screen](https://github.com/Alvarez-Bermudez/MinecraftClone2d/blob/main/.readme/01-Home.png)
 
 >[!NOTE]
 >
