@@ -45,6 +45,6 @@ A continuación se muestra un ejemplo de cómo crear un objeto Mesa de Creación
 >
 > Si revisas el código, verás mi beginner level tanto en programación como en idioma inglés, muestra de mi poca experiencia cuando empezaba en este maravilloso mundo del desarrollo de Software.
 
-...Llegado hasta este punto me dirás —¡Qué raro está este proyecto!—. Sí, yo también ahora lo veo así. En la actualidad, con el desarrollo y el nivel alcanzado de la tecnología, lo hallo super raro; solo que en aquel momento, no disponía de la información y los recursos necesarios para realizar un mejor trabajo. Pero bueno, conservo este código como muestra de mi comienzo en este interesante mundo. Así que, sin más, espero que te diviertas un poco usándolo😆! ¡Graciass!
+...Llegado hasta este punto me dirás —¡Qué raro está este proyecto!—. Sí, yo también lo veo así ahora. En la actualidad, con el desarrollo y el nivel de la tecnología alcanzado, lo hallo super raro; solo que en aquel momento, no disponía de la información y los recursos necesarios para realizar un mejor trabajo. Pero bueno, conservo este código como muestra de mi comienzo en este interesante mundo. Así que, sin más, espero que te diviertas un poco usándolo😆! ¡Graciass!
 
 
